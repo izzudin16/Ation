@@ -1,0 +1,305 @@
+body{
+	margin: 0px Auto;
+}
+a:link, a:visited {
+    color: white;
+}
+.bgindex{
+	width: 100%;
+	height:100vh;
+	position: relative;
+	background-image: url('../img/bgindex.jpg');
+	background-size: cover;
+}
+
+/**HEADER*/
+#logo{
+	display: inline-block;
+	
+}
+.headerindex{
+	background: rgba(135,135,135,.5);
+	
+	
+	height: 60px;
+}
+.header{
+	background-color: CBCFEA;
+	padding-top: 20px;
+	padding-left: 25px;
+	height: 110px;
+}
+#titlehead p{
+	display: inline-block;
+	color: 8C827B;
+}
+#titlehead h1{
+	display: inline-block;
+	font-size: 60px;
+	color: #1C2833;
+}
+#titlehead{
+	display: inline-block;
+}
+.menu{
+	float: right;
+	margin-right: 60px;
+	font-size: 23px;
+	display: inline-block;
+}
+.menu ul{
+	list-style: none;
+}
+.menu li{
+	padding-left : 13px;
+	padding-right : 5px;
+	display: inline-block;
+	color: white;
+}
+.menu a:active,a:hover { 
+   color: #2980B9;
+}
+
+.menu a:link{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*LOGIN*/
+.titleindex{
+	margin-left: 30%;
+	margin-top: 10%;
+}
+.login_box{
+	padding: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: block;
+	background-color: #24BDEE;
+	border-radius: 10px;
+	
+}
+
+.login_box a:link{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.aboutus h2{
+	color: #2BA6F1;
+	font-size: 36px;
+	margin-left: 20px;
+	text-align: center;
+}
+.aboutcontent h3,p{
+	display: inline-block;
+
+}
+
+.aboutcontent h3{
+	color: #35744E;
+	font-size: 30px;
+}
+.aboutcontent p{
+	font-family: Arial;
+	font-size: 20px;
+}
+/*Contact*/
+.contact ul{
+	list-style: none;
+}
+.contact p{
+	font-size: 28px;
+}
+/*dashboard*/
+.dashboard_container{
+	display: block;
+	background-color: #3D374D;
+	height: 110vh;
+}
+/*navigation dashboard*/
+
+.navi_dash{
+	display: inline-block;
+	width: 10%;
+	height: 110vh;
+	background: rgba(31, 97, 141,.2);
+}
+.navi_dash a:link{
+	text-decoration: none;
+}
+
+.navi_dash h3{
+	
+	font-family: Arial;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.navi_dash ul{
+	list-style: none;
+	padding-left: 0;
+}
+.navi_dash li{
+	padding: 3px;
+	padding-top: 1px;
+}
+.navi_dash li:hover{
+	background: rgba(31, 97, 141,.8);
+}
+.navi_dash a:hover{
+	color: white;
+}
+/*content dashboard*/
+.content_dash{
+	
+	display: inline-block;
+	height: 50vh;
+	width: 86%;
+	margin:0px auto;
+	position: absolute;
+}
+.title_dash{
+	display: block;
+	background-color: #7C768C;
+	padding: 15px;
+	margin: 30px;
+
+}
+.title_dash h1{
+	color: white;
+	font-size: 30px;
+	font-family: Arial;
+	margin-left: 30px;
+	display: inline-block;
+	margin-right: 30px;
+}
+.statistic{
+	display: block;
+	background-color: #7C768C;
+	padding: 15px;
+	margin: 30px;
+}
+.statistic h2{
+	color: white;
+	font-family: arial;
+}
+.statistic ul{
+	list-style: none;
+	color: white;
+	display: inline-block;
+	background-color:#3D374D;
+	margin-left: 40px;
+	padding-right: 55px;
+}
+.statistic h4{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: arial;
+}
+.statistic h3{
+	font-size: 40px;
+	color: #A79E6E;
+}
+
+/*Manage*/
+.manage_content{
+	margin: 40px;
+	margin-top: 30px;
+	border: 4px solid #7C768C;
+	border-radius: 10px;
+	background-color:#3D374D;
+}
+
+.manage_content td{
+	color: white;
+	font-size: 25px;
+	padding-right: 50px;
+}
+.manage_content input{
+	font-size: 30px;
+	border-radius: 3px;
+	background-color:#A0AECA ;
+}
+.manage_content select{
+	font-size: 20px;
+}
+
+.manage_content a:link{
+	text-decoration: none;
+}
+.manage_content a:hover{
+	color: #BFACF3; 
+}
+
+/*edit*/
+.dash_content{
+	background-color: #3D374D;
+	margin: Auto 0px;
+	padding: 29.5vh;
+}
+.edit_content{
+	margin: 40px;
+	margin-top: 30px;
+	border: 4px solid #7C768C;
+	border-radius: 10px;
+	background-color: white;
+}
+.edit_content h1{
+	color: #2BA6F1;
+}
+.error{
+	width: 42%;
+	margin: 0px auto;
+	padding:10px;
+	border:1px solid #a94442;
+	color:#a94442;
+	background:#f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+.owner_name{
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+	font-family: Arial;
+}
+
+/*key in*/
+.formkeyin1{
+	display: block;
+	background-color: #7C768C;
+	padding: 15px;
+	margin: 30px;
+	border-radius: 10px;
+}
+.formkeyin1 h2{
+	color: white;
+	font-size: 30px;
+	
+}
+.formkeyin2{
+	display: block;
+	background-color: #7C768C;
+	padding: 15px;
+	margin: 30px;
+	border-radius: 10px;
+}
+.formkeyin2 h2{
+	color: white;
+	font-size: 30px;
+	
+}
+/*Show tab*/
+.displaytable{
+	display: block;
+	background-color: #7C768C;
+	padding: 15px;
+	margin: 30px;
+	border-radius: 10px;
+}
